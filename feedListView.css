@@ -1,0 +1,66 @@
+
+img.label_thumb{
+	/* display:none; *//* 可使 thumbnail 消失 */
+    width: 24px;
+    height: 24px;
+    object-fit: cover;   /*讓圖片可以center crop於上面的長寬當中*/
+    padding: 1px;
+    border: 1px;       /*圖片的邊框*/
+    border-radius: 10%;
+
+	//display: inline-block;
+//    float:left;
+vertical-align: middle;
+}
+
+.label_with_thumbs {
+    text-align: left;
+    /* font: normal 18px Port Lligat Slab; */
+//    float: left;
+    //width: 96%;
+    //min-height: 70px;
+    //margin: 0px 2px 2px 0px;
+    padding: 0;
+}
+
+ul.label_with_thumbs li {
+    padding:2px;
+    //min-height:75px;
+//margin-bottom:0px;
+    border-bottom: 1px dotted #999999;
+//    width: 240px;
+}
+
+.label_with_thumbs li{
+//    list-style: none ;
+//	display: inline-block;
+    display: block;
+    padding-left:0px !important;
+    width: 96%;
+}
+.label_with_thumbs li strong {
+	display: inline-block;
+//    display:none;
+//    list-style: none ;
+//	display: block;
+}
+
+.label_with_thumbs a:visited {
+    text-decoration: none;
+//    color: black;
+}
+
+.label_with_thumbs a:link {
+    text-decoration: none;
+//    color: black;
+}
+
+.label_with_thumbs a { text-transform: none;}
+.label_with_thumbs a:hover { text-decoration: underline;}
+.label_with_thumbs strong {padding-left:0px; }
+
+
+.tooltip:hover {
+    border: 1px solid #f80;
+}
+
