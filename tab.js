@@ -6,7 +6,7 @@ function initTab ()
 	$('#tabs li a:not(:first)').addClass('inactive');
 	$('.container').hide();
 	$('.container:first').show();
-	$('head').append('<link rel="stylesheet" href="feedIconView.css" type="text/css" />');
+	$('head').append('<link rel="stylesheet" href="https://combinatronics.com/u8211001/blogger/master/feedIconView.css" type="text/css" />');
 
 	$('#tabs li a').click(function(){
 		var t = $(this).attr('id');
@@ -21,11 +21,11 @@ function initTab ()
 		
 		switch (t) {
 			case 'tab1':
-				$('head').append('<link rel="stylesheet" href="feedIconView.css" type="text/css" />');
+				$('head').append('<link rel="stylesheet" href="https://combinatronics.com/u8211001/blogger/master/feedIconView.css" type="text/css" />');
 				break;
 				
 			case 'tab2':
-				$('head').append('<link rel="stylesheet" href="feedListView.css" type="text/css" />');
+				$('head').append('<link rel="stylesheet" href="https://combinatronics.com/u8211001/blogger/master/feedListView.css" type="text/css" />');
 				break;
 
 		}
